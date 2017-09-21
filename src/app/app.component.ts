@@ -12,7 +12,7 @@ import { NotiPage } from "../pages/noti/noti";
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = TimePage;
+  rootPage:any = NamePage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {

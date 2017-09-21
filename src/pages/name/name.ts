@@ -21,5 +21,7 @@ export class NamePage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad NamePage');
   }
-
+time(){
+  this.navCtrl.push('TimePage');
+}
 }
