@@ -1,3 +1,4 @@
+import {SoundPage} from '../sound/sound';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -22,4 +23,7 @@ export class TimePage {
     console.log('ionViewDidLoad TimePage');
   }
 
+  sound(){
+    this.navCtrl.push('SoundPage');
+  }
 }
