@@ -21,5 +21,6 @@ export class NamePage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad NamePage');
   }
+  
 
 }

@@ -7,12 +7,17 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>name</ion-title>
+    <ion-title>คุณชื่ออะไร</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
+  <ion-item>
+    <ion-label floating>กรุณากรอกชื่อ</ion-label>
+    <ion-input type="text" [(ngModel)]=""></ion-input>
+  </ion-item>
+  <button ion-button full (click)="next()">ต่อไป</button>
 
 </ion-content>
