@@ -16,8 +16,12 @@
 <ion-content padding>
   <ion-item>
     <ion-label floating>กรุณากรอกชื่อ</ion-label>
-    <ion-input type="text" [(ngModel)]=""></ion-input>
+    <ion-input type="text" [(ngModel)]="addname.name"></ion-input>
   </ion-item>
-  <button ion-button full (click)="next()">ต่อไป</button>
+
+  <ion-footer padding>
+    <button ion-button block (click)="next()">ต่อไป</button>
+  </ion-footer>
+  <!-- <button ion-button full (click)="next()">ต่อไป</button> -->
 
 </ion-content>

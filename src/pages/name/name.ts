@@ -14,13 +14,19 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'name.html',
 })
 export class NamePage {
+  addname = {
+    name: ''
+  }
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    console.log(this.navParams.data);
+    this.addname = this.navParams.data;
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad NamePage');
   }
-  
+
+
 
 }
