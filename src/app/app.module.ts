@@ -8,17 +8,13 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { NamePage } from "../pages/name/name";
 import { TimePage } from "../pages/time/time";
-import { SoundPage } from "../pages/sound/sound";
 import { NotiPage } from "../pages/noti/noti";
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    NamePage,
-    TimePage,
-    SoundPage,
-    NotiPage
+    NamePage
   ],
   imports: [
     BrowserModule,
@@ -28,10 +24,7 @@ import { NotiPage } from "../pages/noti/noti";
   entryComponents: [
     MyApp,
     HomePage,
-    NamePage,
-    TimePage,
-    SoundPage,
-    NotiPage
+    NamePage
   ],
   providers: [
     StatusBar,

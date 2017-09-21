@@ -10,9 +10,18 @@
         <ion-title>time</ion-title>
     </ion-navbar>
 
+    <ion-item>
+        <ion-label>Start Time</ion-label>
+        <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A"></ion-datetime>
+    </ion-item>
+
 </ion-header>
 
 
 <ion-content padding>
-    <button ion-button block (click)="sound()">ต่อไป</button>
+
 </ion-content>
+
+<ion-footer>
+    <button ion-button block (click)="sound()">ต่อไป</button>
+</ion-footer>
